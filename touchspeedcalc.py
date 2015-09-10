@@ -27,7 +27,7 @@ else:
   print "SSID-заканчиваться должен на 6 или 4 чисвола."
   sys.exit()
 
-YEARS = [ 2010, 2009, 2008, 2007, 2006, 2005, 2004 ]
+YEARS = [ 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004 ]
 
 def ascii2hex(char):
   return hex(ord(char))[2:].upper()
